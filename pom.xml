@@ -98,13 +98,7 @@
 							<port>80</port>
 							<maxIdleTime>60000</maxIdleTime>
 						</connector>
-						<!-- <connector implementation="org.mortbay.jetty.security.SslSocketConnector"> 
-							<port>8443</port> <maxIdleTime>60000</maxIdleTime> <Acceptors>2</Acceptors> 
-							<AcceptQueueSize>100</AcceptQueueSize> <keystore>${project.build.directory}/jetty-ssl.p12</keystore> 
-							<password>123123</password> <keyPassword>123123</keyPassword> </connector> -->
 					</connectors>
-					<!-- interval 3 second if server have changed something ,then restart 
-						server -->
 					<scanIntervalSeconds>0</scanIntervalSeconds>
 					<contextPath>/</contextPath>
 					<reload>manual</reload>

@@ -11,7 +11,7 @@
 		</servlet-class>
 		<init-param>
 			<param-name>applicationClassName</param-name>
-			<param-value>wicketDemo.HomePageApplication</param-value>
+			<param-value>wicketDemo.MainApplication</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
